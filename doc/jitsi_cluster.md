@@ -118,8 +118,8 @@ Installation will be done with
 ##### 2.2.1 Downloading the installer
 
 ```bash
-wget -O eb https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget -O eb-jitsi.conf https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/eb-jitsi.conf
+wget -O eb https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget -O eb-jitsi.conf https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/eb-jitsi.conf
 ```
 
 ##### 2.2.2 Setting the host addresses
@@ -402,5 +402,5 @@ Update `add-jibri-node` script to fix this issue. Run the following command on
 the `JMS` host:
 
 ```bash
-wget -O /usr/local/sbin/add-jibri-node https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/machines/eb-jitsi-host/usr/local/sbin/add-jibri-node
+wget -O /usr/local/sbin/add-jibri-node https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/machines/eb-jitsi-host/usr/local/sbin/add-jibri-node
 ```

@@ -43,8 +43,8 @@ Installation will be done with
 
 #### 3.1 Downloading the installer
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/eb-livestream.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/eb-livestream.conf
 ```
 
 #### 3.2 Running the installer

@@ -42,8 +42,8 @@ Download the installer, run it with a template name as an argument and drink a
 coffee. That's it.
 
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/<TEMPLATE_NAME>.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/<TEMPLATE_NAME>.conf
 bash eb <TEMPLATE_NAME>
 ```
 
@@ -54,8 +54,8 @@ To install a streaming media system, login a Debian Buster (_version 10_) host
 as `root` and
 
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/eb-livestream.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/eb-livestream.conf
 bash eb eb-livestream
 ```
 
@@ -70,8 +70,8 @@ Install only a containerized Debian Buster.
 ### To install eb-base
 
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/eb-base.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/eb-base.conf
 bash eb eb-base
 ```
 
@@ -98,8 +98,8 @@ Install a ready-to-use live streaming media system. See the
 ### To install eb-livestream
 
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/eb-livestream.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/eb-livestream.conf
 bash eb eb-livestream
 ```
 
@@ -152,8 +152,8 @@ other architecture.
 ### To install eb-gitea
 
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/eb-gitea.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/eb-gitea.conf
 bash eb eb-gitea
 ```
 
@@ -226,8 +226,8 @@ for their support.
 Download the installer
 
 ```bash
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-base/master/installer/eb
-wget https://raw.githubusercontent.com/emrahcom/emrah-buster-templates/master/installer/eb-jitsi.conf
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-base/master/installer/eb
+wget https://raw.githubusercontent.com/ftntming/emrah-buster-templates/master/installer/eb-jitsi.conf
 ```
 
 Open `eb-jitsi.conf` file with an editor and change the `JITSI_HOST` value.
