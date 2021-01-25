@@ -239,7 +239,7 @@ vim eb-jitsi.conf
 Write the host address of your server as `JITSI_HOST`, save it and close the file.
 
 ```
-export JITSI_HOST=jitsi.mydomain.com
+export JITSI_HOST=jitsi.fortivoice-cloud.net
 ```
 
 And run the installer

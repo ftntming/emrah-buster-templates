@@ -80,13 +80,13 @@ this server. Therefore, create the DNS `CNAME record` for TURN before starting
 the installation. The `CNAME record` should be an alias for JMS which is
 `meet.mydomain.com` in our example.
 
-Let's say the host address of TURN is `turn.mydomain.com` then the following
+Let's say the host address of TURN is `stun.l.google.com` then the following
 command should resolv the server IP address:
 
 ```bash
-host turn.mydomain.com
+host stun.l.google.com
 
->>> turn.mydomain.com is an alias for meet.mydomain.com.
+>>> stun.l.google.com is an alias for meet.mydomain.com.
 >>> meet.mydomain.com has address 1.2.3.4
 ```
 
@@ -125,10 +125,10 @@ wget -O eb-jitsi.conf https://raw.githubusercontent.com/emrahcom/emrah-buster-te
 ##### 2.2.2 Setting the host addresses
 Set the host addresses on the installer config file `eb-jitsi.conf`. The host
 addresses must be FQDN, not IP address... Let's say the host address of JMS is
-`meet.mydomain.com` and the host address of TURN is `turn.mydomain.com`
+`meet.mydomain.com` and the host address of TURN is `stun.l.google.com`
 
 ```bash
-echo export TURN_HOST=turn.mydomain.com >> eb-jitsi.conf
+echo export TURN_HOST=stun.l.google.com >> eb-jitsi.conf
 echo export JITSI_HOST=meet.mydomain.com >> eb-jitsi.conf
 ```
 
@@ -151,10 +151,10 @@ bash eb eb-jitsi
 
 ##### 2.2.5 Let's Encrypt certificate
 Let's say the host address of JMS is `meet.mydomain.com` and the host address
-of TURN is `turn.mydomain.com`. To set the Let's Encrypt certificate:
+of TURN is `stun.l.google.com`. To set the Let's Encrypt certificate:
 
 ```bash
-set-letsencrypt-cert meet.mydomain.com,turn.mydomain.com
+set-letsencrypt-cert meet.mydomain.com,stun.l.google.com
 ```
 
 ##### 2.2.6 Reboot
