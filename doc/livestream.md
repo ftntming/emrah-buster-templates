@@ -39,7 +39,7 @@ If the server is behind a firewall, open the following ports:
 
 ## 3. Installing
 Installation will be done with
-[emrah-buster](https://github.com/emrahcom/emrah-buster-templates) installer.
+[emrah-buster](https://github.com/ftntming/emrah-buster-templates) installer.
 
 #### 3.1 Downloading the installer
 ```bash

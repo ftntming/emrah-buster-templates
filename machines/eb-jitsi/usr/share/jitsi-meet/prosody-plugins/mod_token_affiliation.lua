@@ -1,7 +1,7 @@
 -- ----------------------------------------------------------------------------
 -- Token Affiliation
 --
--- https://github.com/emrahcom/
+-- https://github.com/ftntming/
 -- ----------------------------------------------------------------------------
 -- This plugin set the occupant's affiliation according to the token content.
 --

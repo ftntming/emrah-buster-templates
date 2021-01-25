@@ -113,7 +113,7 @@ If the JMS server is behind a firewall, open the following ports:
 
 #### 2.2 Installing JMS
 Installation will be done with
-[emrah-buster](https://github.com/emrahcom/emrah-buster-templates) installer.
+[emrah-buster](https://github.com/ftntming/emrah-buster-templates) installer.
 
 ##### 2.2.1 Downloading the installer
 

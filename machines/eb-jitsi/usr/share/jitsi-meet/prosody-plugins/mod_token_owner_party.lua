@@ -1,7 +1,7 @@
 -- ----------------------------------------------------------------------------
 -- Token Owner Party
 --
--- https://github.com/emrahcom/
+-- https://github.com/ftntming/
 -- ----------------------------------------------------------------------------
 -- This plugin prevents the unauthorized users to create a room and terminates
 -- the conference when the owner leaves. It's designed to run with

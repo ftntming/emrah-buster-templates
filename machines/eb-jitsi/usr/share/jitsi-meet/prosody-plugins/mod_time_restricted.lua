@@ -1,7 +1,7 @@
 -- ----------------------------------------------------------------------------
 -- Time Restricted
 --
--- https://github.com/emrahcom/
+-- https://github.com/ftntming/
 -- ----------------------------------------------------------------------------
 -- This plugin set a time limit to the conference.
 --
